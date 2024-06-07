@@ -1,0 +1,4 @@
+max, password
+newuser, password
+newestuser, password
+test, test

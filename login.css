@@ -1,0 +1,76 @@
+body {
+    font-family: "Poetsen One", sans-serif;
+    background-color: rgb(223, 245, 255);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(55, 140, 231);
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    background-color: rgb(103, 198, 227);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-family: "Poetsen One", sans-serif;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    color: #0f0f0f;
+    margin-bottom: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#loginbutton {
+    font-family: "Poetsen One", sans-serif;
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: rgb(55, 140, 231);
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 1px solid #444;
+}
+
+#signupbutton {
+    font-family: "Poetsen One", sans-serif;
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: rgb(55, 140, 231);
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    align-self: flex-end;
+    border: 1px solid #444;
+}
