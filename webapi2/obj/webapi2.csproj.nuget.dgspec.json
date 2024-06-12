@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/opt/flipbook/public/learner/www/Webpage/Project/webapi2/webapi2.csproj": {}
+    "D:\\Nextcloud\\storage\\Workspace\\Webdev\\Tasktrackr\\webapi2\\webapi2.csproj": {}
   },
   "projects": {
-    "/opt/flipbook/public/learner/www/Webpage/Project/webapi2/webapi2.csproj": {
+    "D:\\Nextcloud\\storage\\Workspace\\Webdev\\Tasktrackr\\webapi2\\webapi2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/opt/flipbook/public/learner/www/Webpage/Project/webapi2/webapi2.csproj",
+        "projectUniqueName": "D:\\Nextcloud\\storage\\Workspace\\Webdev\\Tasktrackr\\webapi2\\webapi2.csproj",
         "projectName": "webapi2",
-        "projectPath": "/opt/flipbook/public/learner/www/Webpage/Project/webapi2/webapi2.csproj",
-        "packagesPath": "/home/ubuntu/.nuget/packages/",
-        "outputPath": "/opt/flipbook/public/learner/www/Webpage/Project/webapi2/obj/",
+        "projectPath": "D:\\Nextcloud\\storage\\Workspace\\Webdev\\Tasktrackr\\webapi2\\webapi2.csproj",
+        "packagesPath": "C:\\Users\\maxim\\.nuget\\packages\\",
+        "outputPath": "D:\\Nextcloud\\storage\\Workspace\\Webdev\\Tasktrackr\\webapi2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\maxim\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -75,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/245/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

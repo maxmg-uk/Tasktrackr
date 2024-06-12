@@ -14,7 +14,7 @@
         "dotnetRunMessages": true,
         "launchBrowser": true,
         "launchUrl": "swagger",
-        "applicationUrl": "http://fb17.decoded.com:8000",
+        "applicationUrl": "http://localhost:8000",
         "environmentVariables": {
           "ASPNETCORE_ENVIRONMENT": "Development"
         }
@@ -24,7 +24,7 @@
         "dotnetRunMessages": true,
         "launchBrowser": true,
         "launchUrl": "swagger",
-        "applicationUrl": "https://fb17.decoded.com:8000",
+        "applicationUrl": "https://localhost:8000",
         "environmentVariables": {
           "ASPNETCORE_ENVIRONMENT": "Development"
         }

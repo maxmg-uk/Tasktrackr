@@ -1,5 +1,3 @@
-// add SQL prepare statements to protect from user fuckery
-
 class User {
     constructor(username, password) {
         this.username = username;
@@ -42,7 +40,7 @@ if (createAccountBtn){
 
             const newUser = new User(username, password1);
 
-            await fetch('http://fb17.decoded.com:8000/api/create-user', {
+            await fetch('http://localhost:8000/api/create-user', {
                 method: 'POST',
                 headers:{
                     'Content-Type': 'application/json;charset=utf-8'
@@ -69,7 +67,7 @@ if (logInBtn){
         const username = document.getElementById('username').value;
         const password = document.getElementById('password').value;
 
-        let url = (`http://fb17.decoded.com:8000/api/get-user/${username}`);
+        let url = (`http://localhost:8000/api/get-user/${username}`);
 
         let response = await fetch(url);
 
@@ -104,7 +102,7 @@ if (saveBtn) {
             document.getElementById("details").value,
             document.getElementById("priority").value);
 
-        await fetch('http://fb17.decoded.com:8000/api/create-task', {
+        await fetch('http://localhost:8000/api/create-task', {
             method: 'POST',
             headers:{
                 'Content-Type': 'application/json;charset=utf-8'
@@ -122,7 +120,7 @@ if (tableView){
     tableView.onload = async () => {
 
         let userID = sessionStorage.getItem("userID");
-        let url = `http://fb17.decoded.com:8000/api/get-tasks/${userID}`;
+        let url = `http://localhost:8000/api/get-tasks/${userID}`;
 
         let response = await fetch(url);
 
@@ -164,7 +162,7 @@ if (tableView){
             doneButton.onclick = async () => {
                 const title = task.title;
 
-                let url = `http://fb17.decoded.com:8000/api/remove-task/${title}`
+                let url = `http://localhost:8000/api/remove-task/${title}`
 
                 await fetch(url);
 
@@ -217,7 +215,7 @@ if (saveEditButton){
             document.getElementById("details").value,
             document.getElementById("priority").value);
 
-        let url = `http://fb17.decoded.com:8000/api/edit-task/`;
+        let url = `http://localhost:8000/api/edit-task/`;
 
         await fetch(url, {
             method: 'POST',
