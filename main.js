@@ -60,6 +60,12 @@ if (createAccountBtn){
 const logInBtn = document.getElementById("loginbutton");
 
 if (logInBtn){
+    logInBtn.addEventListener("keypress", function(event) {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            document.getElementById("myBtn").click();
+        }});
+        
     logInBtn.onclick = async (event) => {
         event.preventDefault();
         var userData;
